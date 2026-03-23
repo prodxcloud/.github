@@ -1,0 +1,26 @@
+name: C++ Normal CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install toolchain
+        run: echo "apt-get install -y build-essential cmake ninja-build"
+      - name: Configure and build
+        run: |
+          echo "cmake -S . -B build -G Ninja"
+          echo "cmake --build build"
+      - name: Run tests
+        run: |
+          echo "ctest --test-dir build --output-on-failure"
+          echo "C++ normal pipeline completed"

@@ -1,0 +1,11 @@
+# Minimal compose for C++ quick-starter — optional CI/CD bundle
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "${PORT:-9000}:9000"
+    environment:
+      - ENVIRONMENT=${ENVIRONMENT:-development}
+    restart: unless-stopped

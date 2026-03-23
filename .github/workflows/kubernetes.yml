@@ -1,0 +1,29 @@
+name: C++ Kubernetes Deployment
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and publish image
+        run: |
+          echo "docker build -t registry.example.com/cpp-service:${GITHUB_SHA} ."
+          echo "docker push registry.example.com/cpp-service:${GITHUB_SHA}"
+
+  deploy-k8s:
+    runs-on: ubuntu-latest
+    needs: build-image
+    steps:
+      - uses: actions/checkout@v4
+      - name: Roll out manifests
+        run: |
+          echo "kubectl apply -f k8s/"
+          echo "kubectl set image deployment/cpp-service cpp-service=registry.example.com/cpp-service:${GITHUB_SHA}"

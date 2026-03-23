@@ -1,0 +1,34 @@
+name: CI Simulation C++ Application
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Simulate build
+        run: |
+          echo "=== C++ build ==="
+          echo "cmake -B build && cmake --build build"
+          echo "Build simulation complete."
+
+
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: run
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Simulate deploy
+        run: |
+          echo "Deploying C++ artifact to VM / Docker..."
+          echo "Deployment simulation complete."

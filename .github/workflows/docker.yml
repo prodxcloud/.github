@@ -1,0 +1,25 @@
+name: C++ Docker Pipeline
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dockerize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build binary
+        run: |
+          echo "cmake -S . -B build"
+          echo "cmake --build build"
+      - name: Build Docker image
+        run: |
+          echo "docker build -t cpp-service:latest ."
+          echo "docker tag cpp-service:latest registry.example.com/cpp-service:latest"
+      - name: Push image
+        run: echo "docker push registry.example.com/cpp-service:latest"
