@@ -4,6 +4,9 @@ prodxcloud is a multi-cloud platform engineered for teams that need reliable pro
 
 ## 🚀 Platform at a Glance
 
+Agent Control v1.0 by prodxcloud
+<img width="1913" height="902" alt="image" src="https://github.com/user-attachments/assets/9720e3fd-3fc4-4d4f-9ba6-41247e26fb4c" />
+
 - **Multi-cloud by default:** Seamless orchestration for AWS, Azure, and OpenClaws-based private clouds.
 - **Git-native delivery:** First-class integrations with GitHub and GitLab for CI/CD, approvals, and audit trails.
 - **Provisioning automation:** Reusable IaC blueprints, environment vending, and drift detection.
