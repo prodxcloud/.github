@@ -1,6 +1,4 @@
 # prodxcloud Multi-Cloud Platform
-Agent Control v1.0 by prodxcloud
-<img width="1913" height="902" alt="image" src="https://github.com/user-attachments/assets/9720e3fd-3fc4-4d4f-9ba6-41247e26fb4c" />
 
 **AI-powered multi-cloud DevOps for teams building, deploying, and operating modern infrastructure.**
 
@@ -16,6 +14,8 @@ We combine Git-native workflows, infrastructure automation, policy guardrails, a
 - **Cloud governance** and policy enforcement
 - **Observability**, reliability, and self-healing operations
 - **Private and on-prem** VxAI infrastructure environments
+Agent Control v1.0 by prodxcloud
+<img width="1913" height="902" alt="image" src="https://github.com/user-attachments/assets/9720e3fd-3fc4-4d4f-9ba6-41247e26fb4c" />
 
 ## 🧩 Supported Integrations
 
