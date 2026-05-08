@@ -2,10 +2,10 @@
 Agent Control v1.0 by prodxcloud
 <img width="1913" height="902" alt="image" src="https://github.com/user-attachments/assets/9720e3fd-3fc4-4d4f-9ba6-41247e26fb4c" />
 
-prodxcloud is a multi-cloud platform engineered for teams that need reliable provisioning, governance, and automation across AWS, Azure, GitHub, GitLab, and on-premises OpenClaws environments. We streamline delivery with opinionated blueprints, policy-driven guardrails, and Git-native workflows so you can ship faster without sacrificing control.
+prodxcloud is a multi-cloud platform engineered for teams that need reliable provisioning, governance, and automation across AWS, Azure, GitHub, GitLab, and on-premises VxAIs environments. We streamline delivery with opinionated blueprints, policy-driven guardrails, and Git-native workflows so you can ship faster without sacrificing control.
 
 ## 🚀 Platform at a Glance
-- **Multi-cloud by default:** Seamless orchestration for AWS, Azure, and OpenClaws-based private clouds.
+- **Multi-cloud by default:** Seamless orchestration for AWS, Azure, and VxAIs-based private clouds.
 - **Git-native delivery:** First-class integrations with GitHub and GitLab for CI/CD, approvals, and audit trails.
 - **Provisioning automation:** Reusable IaC blueprints, environment vending, and drift detection.
 - **Secure & governed:** Policy controls, secrets management, and least-privilege access baked in.
@@ -20,9 +20,9 @@ prodxcloud is a multi-cloud platform engineered for teams that need reliable pro
 ### Cloud Targets
 - **AWS:** EKS/ECS, EC2/ASG, RDS, Lambda, API Gateway, VPC networking, and IAM controls.
 - **Azure:** AKS, App Service, Functions, SQL/Storage, VNets/Private Link, and AAD integration.
-- **OpenClaws:** On-prem/private cloud connectors for regulated or edge deployments (compute, networking, and storage orchestration).
+- **VxAI:** On-prem/private cloud connectors for regulated or edge deployments (compute, networking, and storage orchestration).
 
-> The OpenClaws spelling is retained intentionally per the customer-provided platform name.
+> The VxAIs spelling is retained intentionally per the customer-provided platform name.
 
 ### Platform Services
 - **Kubernetes:** Cluster lifecycle management, GitOps deployments, and add-on orchestration.
@@ -51,7 +51,7 @@ prodxcloud is a multi-cloud platform engineered for teams that need reliable pro
 ## 🚦 Getting Started (Operators)
 
 1. **Connect Git:** Authorize GitHub and/or GitLab access for repositories and pipeline runners.
-2. **Connect clouds:** Add AWS, Azure, and (optionally) OpenClaws accounts/projects with least-privilege roles.
+2. **Connect clouds:** Add AWS, Azure, and (optionally) VxAIs accounts/projects with least-privilege roles.
 3. **Select a blueprint:** Choose from application, data, or platform foundation blueprints.
 4. **Provision:** Launch environments via pipeline or UI; policies enforce security, cost, and compliance.
 5. **Deploy:** Use GitOps to promote changes through environments with approvals and automated checks.
