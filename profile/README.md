@@ -2,14 +2,20 @@
 Agent Control v1.0 by prodxcloud
 <img width="1913" height="902" alt="image" src="https://github.com/user-attachments/assets/9720e3fd-3fc4-4d4f-9ba6-41247e26fb4c" />
 
-prodxcloud is a multi-cloud platform engineered for teams that need reliable provisioning, governance, and automation across AWS, Azure, GitHub, GitLab, and on-premises VxAIs environments. We streamline delivery with opinionated blueprints, policy-driven guardrails, and Git-native workflows so you can ship faster without sacrificing control.
+**AI-powered multi-cloud DevOps for teams building, deploying, and operating modern infrastructure.**
 
-## 🚀 Platform at a Glance
-- **Multi-cloud by default:** Seamless orchestration for AWS, Azure, and VxAIs-based private clouds.
-- **Git-native delivery:** First-class integrations with GitHub and GitLab for CI/CD, approvals, and audit trails.
-- **Provisioning automation:** Reusable IaC blueprints, environment vending, and drift detection.
-- **Secure & governed:** Policy controls, secrets management, and least-privilege access baked in.
-- **Observability & reliability:** End-to-end monitoring, SLO tracking, and self-healing actions.
+ProdXCloud helps engineering teams provision, secure, observe, and optimize cloud environments across AWS, Azure, Google Cloud, Alibaba Cloud, Linode, GitHub, GitLab, and private VxAI-powered environments.
+We combine Git-native workflows, infrastructure automation, policy guardrails, and agentic AI to make cloud operations faster, safer, and more intelligent.
+
+
+## What We Build
+- **Multi-cloud** infrastructure provisioning
+- **AI-assisted** DevOps automation
+- **Git-native** deployment workflows
+- **Infrastructure-as-Code** blueprints
+- **Cloud governance** and policy enforcement
+- **Observability**, reliability, and self-healing operations
+- **Private and on-prem** VxAI infrastructure environments
 
 ## 🧩 Supported Integrations
 
