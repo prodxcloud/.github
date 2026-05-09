@@ -17,8 +17,6 @@ We combine Git-native workflows, infrastructure automation, policy guardrails, a
 Agent Control v1.0 by prodxcloud
 <img width="1917" height="907" alt="image" src="https://github.com/user-attachments/assets/de20e677-4fa8-422e-aa6c-123e978c82b7" />
 
-<img width="1911" height="910" alt="image" src="https://github.com/user-attachments/assets/f33dc500-fa76-4d97-8c2d-4169a3f4a656" />
-
 ## 🧩 Supported Integrations
 
 ### Source Control & CI/CD
