@@ -14,8 +14,6 @@ We combine Git-native workflows, infrastructure automation, policy guardrails, a
 - **Cloud governance** and policy enforcement
 - **Observability**, reliability, and self-healing operations
 - **Private and on-prem** VxAI infrastructure environments
-Agent Control v1.0 by prodxcloud
-<img width="1917" height="907" alt="image" src="https://github.com/user-attachments/assets/de20e677-4fa8-422e-aa6c-123e978c82b7" />
 
 ## 🧩 Supported Integrations
 
