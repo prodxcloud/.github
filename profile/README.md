@@ -1,9 +1,10 @@
-# prodxcloud Multi-Cloud Platform
+# ProdXCloud — AI-Powered Multi-Cloud DevOps Platform
 
-**AI-powered multi-cloud DevOps for teams building, deploying, and operating modern infrastructure.**
+**ProdXCloud** is an intelligent multi-cloud DevOps platform for engineering teams building, deploying, securing, and operating modern cloud infrastructure.
 
-ProdXCloud helps engineering teams provision, secure, observe, and optimize cloud environments across AWS, Azure, Google Cloud, Alibaba Cloud, Linode, GitHub, GitLab, and private VxAI-powered environments.
-We combine Git-native workflows, infrastructure automation, policy guardrails, and agentic AI to make cloud operations faster, safer, and more intelligent.
+It helps teams automate infrastructure provisioning, streamline deployments, enforce security guardrails, monitor cloud environments, and optimize cloud operations across **AWS, Azure, Google Cloud, Alibaba Cloud, Linode, GitHub, GitLab, and private VxAI-powered environments**.
+
+ProdXCloud combines **Git-native workflows, Infrastructure as Code, policy automation, observability, and agentic AI** to make cloud operations faster, safer, and context-aware.
 
 
 ## What We Build
