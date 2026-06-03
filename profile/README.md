@@ -136,6 +136,17 @@ uses: prodxcloud/.github/.github/workflows/<workflow-name>.yml@main
 ```
 
 ---
+## Key Repositories
+
+| Repository | Description | Language |
+|---|---|---|
+| [**vxcloud**](https://github.com/prodxcloud/vxcloud) | MultiCloud System SDK — vxcloud / VxCloud SDK suite & Framework | Python |
+| [**vxnode**](https://github.com/prodxcloud/vxnode) | The runtime node for the vxcloud platform — one hardened container that provisions multi-cloud infrastructure | Shell |
+| [**vxcloud-deploy-action**](https://github.com/prodxcloud/vxcloud-deploy-action) | GitHub Action for deploying applications to VxCloud | — |
+| [**terraform-provider-vxcloud**](https://github.com/prodxcloud/terraform-provider-vxcloud) | Official Terraform provider for VxCloud | Go |
+
+---
+
 
 ## Links
 
